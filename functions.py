@@ -15,35 +15,43 @@ print(z)
 # user defined functions
 def details():
     print("Zawadi")
+
+
 # call a function for it to run
 details()
+
 
 def student():
     name = "Zawadi"
     age = 18
     course = "MIT"
-    print(name,age,course)
+    print(name, age, course)
+
+
 student()
 
-# parameters
-def student(name,age,course):
-    print(name,age,course)
 
-student("Zawadi",18,"MIT")
-student("Shantel",17,"Cybersecurity")
-student("Kassim",19,"MIT")
-student("Natasha",16,"Cybersecurity")
-student("Prudence",20,"MIT")
+# parameters
+def student(name, age, course):
+    print(name, age, course)
+
+
+student("Zawadi", 18, "MIT")
+student("Shantel", 17, "Cybersecurity")
+student("Kassim", 19, "MIT")
+student("Natasha", 16, "Cybersecurity")
+student("Prudence", 20, "MIT")
+
 
 # create a user defined function called employees that displays details of five employee.
 # parameters are; full name,age,gender,position,salary
 
-def employee(Fullname,Age,Gender,Position,Salary):
-    print(Fullname,Age,Gender,Position,Salary)
+def employee(Fullname, Age, Gender, Position, Salary):
+    print(Fullname, Age, Gender, Position, Salary)
 
-employee("Zawadi Prudence",28,"Female","CEO",500000)
-employee("Shantel Neem",23,"Female","Human Resource Manager",450000)
-employee("Liam Styles",32,"Male","Office Supervisor",230000)
-employee("Kenzie Bell",18,"Female","Receptionist",56000)
-employee("Simon Peter",43,"Male","Video Editor",190000)
 
+employee("Prudence Zawadi", 28, "Female", "CEO", 500000)
+employee("Shantel Neem", 23, "Female", "Human Resource Manager", 450000)
+employee("Liam Styles", 32, "Male", "Office Supervisor", 230000)
+employee("Kenzie Bell", 18, "Female", "Receptionist", 56000)
+employee("Simon Peter", 43, "Male", "Video Editor", 190000)
